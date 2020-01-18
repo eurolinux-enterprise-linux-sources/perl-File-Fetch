@@ -1,6 +1,6 @@
 Name:           perl-File-Fetch
 Version:        0.42
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Generic file fetching mechanism
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -68,6 +68,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.42-2
+- Mass rebuild 2013-12-27
+
 * Mon Apr 15 2013 Petr Pisar <ppisar@redhat.com> - 0.42-1
 - 0.42 bump
 
